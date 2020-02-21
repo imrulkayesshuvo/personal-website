@@ -8,6 +8,9 @@ h1{
 section{
     display: inline-block ;
 }
+p{
+    color: dimgray;
+}
 .half-banner{
     width: 40%;
     float: left;
@@ -63,8 +66,37 @@ section{
     background-image: url("images/footer-bg.png");
     background-repeat: no-repeat;
     width:100%;
-    display: inline-block;
 }
-.end-banner h1,h2,h3,p{
+.end-banner{
     text-align: center;
+}
+.clint-name{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.rank{
+    font-size: 15px;
+    color:darkgrey;
+}
+.message{
+    border-radius: 5px;
+    background-color: #EC4C7A;
+    margin-left:360px;
+    margin-top: 50px;
+    width:45%;
+    padding:10px 20px;
+}
+.message p{
+    color:white;
+}
+.message span{
+    font-size: 20px;
+    font-weight: 700;
+}
+footer{
+    width:100%;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 12px;;
+
 }
