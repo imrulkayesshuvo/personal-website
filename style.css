@@ -1,0 +1,13 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+}
+.half-banner{
+    width: 80%;
+    float: left;
+    padding-left: 5%;
+    margin-left:2%;
+}
