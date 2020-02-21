@@ -5,9 +5,66 @@ body{
 h1{
     font-size: 50px;
 }
+section{
+    display: inline-block ;
+}
 .half-banner{
-    width: 80%;
+    width: 40%;
     float: left;
-    padding-left: 5%;
-    margin-left:2%;
+    padding: 2%;
+    margin: 3%;
+}
+.half-banner img{
+    width: 100%;
+}
+.frist-bannar{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.name-design{
+    color:#EC4C7A;
+    font-weight: 700;
+}
+.name-details{
+    margin-bottom: 30px;
+}
+.hire-button{
+    color:white;
+    border-radius: 5px;
+    background-color:#EC4C7A;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+.second-banner{
+    background-image:url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.last-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+#work-heading{
+    text-align: center;
+}
+.work-gallary{
+    width:25%;
+    float:left;
+    padding-left: 2%;
+    margin-left: 3%;
+}
+.work-gallary img{
+    width: 100%;
+}
+.end-banner{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    width:100%;
+    display: inline-block;
+}
+.end-banner h1,h2,h3,p{
+    text-align: center;
 }
