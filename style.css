@@ -1,5 +1,5 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins',sans-serif;
     margin: 0px;
 }
 h1{
@@ -10,6 +10,9 @@ section{
 }
 p{
     color: dimgray;
+}
+a:hover{
+    background-color: lightseagreen;
 }
 .half-banner{
     width: 40%;
@@ -28,7 +31,10 @@ p{
 }
 .name-design{
     color:#EC4C7A;
-    font-weight: 700;
+}
+.name-design h1{
+    font-size: 60px;
+    font-weight: bolder;
 }
 .name-details{
     margin-bottom: 30px;
@@ -98,5 +104,13 @@ footer{
     text-align: center;
     margin-top: 100px;
     font-size: 12px;;
-
+}
+.hello{
+    margin-left: 90px;
+    width:100%;
+    padding-top: 83px;
+}
+.hello h1{
+    font-size: 50px;
+    font-weight: normal;
 }
